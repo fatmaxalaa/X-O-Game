@@ -1,0 +1,43 @@
+*{
+        background:#012952;
+}
+.game {
+        width: 350px;
+        padding: 10px;
+        text-align: center;
+        font-family: system-ui;
+        color: white;
+        margin: auto;
+        font-weight: 500;
+        text-transform: capitalize;
+        
+
+}
+.game .title{
+        background: #FF453A;
+        padding: 10px 0;
+        margin: 5px 0;
+        font-size:30px ;
+        height: 50px;
+}
+span{
+        color: #a0ccfa;
+        background: #FF453A;
+        font-size: 30px;
+}
+.squarecon{
+        display: flex;
+}
+.square{
+        width: 113px;
+        height: 113px;
+        background:#FF453A;
+        margin: 3px;
+        font-size: 70px ;
+        /* box-shadow: 3px 3px 20px #757474; */
+}
+.square:hover{
+        background: black;
+        
+        cursor: pointer;
+}
